@@ -6,7 +6,6 @@ class Me:
         self.name = 'Luma Pires'
         self.location = 'São Paulo - SP'
         self.linkedin = 'https://www.linkedin.com/in/lumapires/'
-        self.interests = ['Data Engineering', 'Data Pipelines', 'Real-Time Data Processing']
         self.tools = ['Python', 'SQL', 'VBA', 'Web Scraping']
         self.languages = ['Portuguese', 'English']
         self.education = ['Master in Computer Engineering - POLI/USP (2024-currently)',
