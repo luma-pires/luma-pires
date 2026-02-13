@@ -1,12 +1,20 @@
 ```python
+@dataclass
 class Me:
+    name: str = 'Luma Pires'
+    location: str = 'São Paulo - SP'
+    role: str = 'Backend Engineer (AI/LLM)'
+    linkedin: str = 'https://www.linkedin.com/in/lumapires/'
 
-    def __init__(self):
+    tools: List[str] = (
+        'Python', 'SQL', 'FastAPI', 'Docker', 'Kafka',
+        'LangChain', 'LangGraph', 'CrewAI', 'Web Scraping'
+    )
 
-        self.name = 'Luma Pires'
-        self.location = 'São Paulo - SP'
-        self.linkedin = 'https://www.linkedin.com/in/lumapires/'
-        self.tools = ['Python', 'SQL', 'VBA', 'Web Scraping']
-        self.languages = ['Portuguese', 'English']
-        self.education = ['Master in Computer Engineering - POLI/USP (2024-currently)',
-                          'Bachelor of Economics and Controllership - FEARP/USP (2019-2023)']
+    languages: List[str] = ('Portuguese', 'English')
+
+    education: List[str] = (
+        'MSc in Computer Engineering (in progress) - POLI/USP (2024–present)',
+        'BSc in Economics and Controllership - FEARP/USP (2019–2023)'
+    )
+```
